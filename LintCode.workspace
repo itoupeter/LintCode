@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="LintCode" Database="">
+  <Project Name="TwoSumsII" Path="TwoSumsII/TwoSumsII.project" Active="Yes"/>
+  <Project Name="SearchInsertPosition" Path="SearchInsertPosition/SearchInsertPosition.project" Active="No"/>
+  <Project Name="StrStr" Path="StrStr/StrStr.project" Active="No"/>
+  <Project Name="_resources" Path="_resources/_resources.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="TwoSumsII" ConfigName="Debug"/>
+      <Project Name="SearchInsertPosition" ConfigName="Debug"/>
+      <Project Name="StrStr" ConfigName="Debug"/>
+      <Project Name="_resources" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="TwoSumsII" ConfigName="Release"/>
+      <Project Name="SearchInsertPosition" ConfigName="Release"/>
+      <Project Name="StrStr" ConfigName="Release"/>
+      <Project Name="_resources" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

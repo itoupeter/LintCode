@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SearchInsertPosition - Debug ]----------"
-	@cd "SearchInsertPosition" && "$(MAKE)" -f  "SearchInsertPosition.mk"
+	@echo "----------Building project:[ SearchA2DMatrix - Debug ]----------"
+	@cd "SearchA2DMatrix" && "$(MAKE)" -f  "SearchA2DMatrix.mk"
 clean:
-	@echo "----------Cleaning project:[ SearchInsertPosition - Debug ]----------"
-	@cd "SearchInsertPosition" && "$(MAKE)" -f  "SearchInsertPosition.mk" clean
+	@echo "----------Cleaning project:[ SearchA2DMatrix - Debug ]----------"
+	@cd "SearchA2DMatrix" && "$(MAKE)" -f  "SearchA2DMatrix.mk" clean

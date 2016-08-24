@@ -3,3 +3,4 @@ Debug/
 *.workspace
 *.mk
 *.txt
+Makefile

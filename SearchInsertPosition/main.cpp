@@ -24,9 +24,9 @@ public:
 			int mid = lower + ( ( upper - lower ) >> 1 );
 			
 			if( A[ mid ] >= target ){
-				lower = mid + 1;
-			}else{
 				upper = mid;
+			}else{
+				lower = mid + 1;
 			}
 		}
 		
@@ -38,11 +38,7 @@ int main(int argc, char **argv){
 	
 	Solution solution;
 	vector< int > a = { 1, 3, 5, 6 };
-	int target = 1;
-	
-	for( int i : b ){
-		a.push_back( i );
-	}
+	int target = 0;
 	
 	cout << solution.searchInsert( a, target ) << endl;
 	

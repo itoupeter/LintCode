@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=SearchInsertPosition
 ConfigurationName      :=Debug
-WorkspacePath          :=/Users/Liang/Documents/LintCode
-ProjectPath            :=/Users/Liang/Documents/LintCode/SearchInsertPosition
+WorkspacePath          :=/Users/Liang/Github/LintCode
+ProjectPath            :=/Users/Liang/Github/LintCode/SearchInsertPosition
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Documents/LintCode/SearchInsertPosition/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Github/LintCode/SearchInsertPosition/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

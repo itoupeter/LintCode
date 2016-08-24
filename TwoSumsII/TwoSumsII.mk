@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=TwoSumsII
 ConfigurationName      :=Debug
-WorkspacePath          :=/Users/Liang/Documents/LintCode
-ProjectPath            :=/Users/Liang/Documents/LintCode/TwoSumsII
+WorkspacePath          :=/Users/Liang/Github/LintCode
+ProjectPath            :=/Users/Liang/Github/LintCode/TwoSumsII
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/Users/Liang/Downloads/codelite.app/Contents/SharedSupport/
-Objects0=$(IntermediateDirectory)/Strstr.cpp$(ObjectSuffix) $(IntermediateDirectory)/SearchInsertPosition.cpp$(ObjectSuffix) $(IntermediateDirectory)/Template.cpp$(ObjectSuffix) $(IntermediateDirectory)/TwoSumsII.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/TwoSumsII.cpp$(ObjectSuffix) 
 
 
 
@@ -91,32 +91,8 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Strstr.cpp$(ObjectSuffix): Strstr.cpp $(IntermediateDirectory)/Strstr.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Documents/LintCode/TwoSumsII/Strstr.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Strstr.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Strstr.cpp$(DependSuffix): Strstr.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Strstr.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Strstr.cpp$(DependSuffix) -MM Strstr.cpp
-
-$(IntermediateDirectory)/Strstr.cpp$(PreprocessSuffix): Strstr.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Strstr.cpp$(PreprocessSuffix)Strstr.cpp
-
-$(IntermediateDirectory)/SearchInsertPosition.cpp$(ObjectSuffix): SearchInsertPosition.cpp $(IntermediateDirectory)/SearchInsertPosition.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Documents/LintCode/TwoSumsII/SearchInsertPosition.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/SearchInsertPosition.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/SearchInsertPosition.cpp$(DependSuffix): SearchInsertPosition.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/SearchInsertPosition.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/SearchInsertPosition.cpp$(DependSuffix) -MM SearchInsertPosition.cpp
-
-$(IntermediateDirectory)/SearchInsertPosition.cpp$(PreprocessSuffix): SearchInsertPosition.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/SearchInsertPosition.cpp$(PreprocessSuffix)SearchInsertPosition.cpp
-
-$(IntermediateDirectory)/Template.cpp$(ObjectSuffix): Template.cpp $(IntermediateDirectory)/Template.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Documents/LintCode/TwoSumsII/Template.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Template.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Template.cpp$(DependSuffix): Template.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Template.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Template.cpp$(DependSuffix) -MM Template.cpp
-
-$(IntermediateDirectory)/Template.cpp$(PreprocessSuffix): Template.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Template.cpp$(PreprocessSuffix)Template.cpp
-
 $(IntermediateDirectory)/TwoSumsII.cpp$(ObjectSuffix): TwoSumsII.cpp $(IntermediateDirectory)/TwoSumsII.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Documents/LintCode/TwoSumsII/TwoSumsII.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/TwoSumsII.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Liang/Github/LintCode/TwoSumsII/TwoSumsII.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/TwoSumsII.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/TwoSumsII.cpp$(DependSuffix): TwoSumsII.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/TwoSumsII.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/TwoSumsII.cpp$(DependSuffix) -MM TwoSumsII.cpp
 

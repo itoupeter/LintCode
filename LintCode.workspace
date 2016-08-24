@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="LintCode" Database="">
-  <Project Name="TwoSumsII" Path="TwoSumsII/TwoSumsII.project" Active="Yes"/>
-  <Project Name="SearchInsertPosition" Path="SearchInsertPosition/SearchInsertPosition.project" Active="No"/>
+  <Project Name="TwoSumsII" Path="TwoSumsII/TwoSumsII.project" Active="No"/>
+  <Project Name="SearchInsertPosition" Path="SearchInsertPosition/SearchInsertPosition.project" Active="Yes"/>
   <Project Name="StrStr" Path="StrStr/StrStr.project" Active="No"/>
   <Project Name="_resources" Path="_resources/_resources.project" Active="No"/>
   <BuildMatrix>

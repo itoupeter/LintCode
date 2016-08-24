@@ -1,1 +1,1 @@
-./Debug/Strstr.cpp.o ./Debug/SearchInsertPosition.cpp.o ./Debug/Template.cpp.o ./Debug/TwoSumsII.cpp.o
+./Debug/TwoSumsII.cpp.o

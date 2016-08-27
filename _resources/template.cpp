@@ -7,6 +7,8 @@ using std::vector;
 
 #include <algorithm>
 using std::sort;
+using std::max;
+using std::min;
 
 class Solution {
 public:
